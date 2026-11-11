@@ -15,9 +15,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf51.14.6mpimpichscalarcomplex
       osx_64_hdf51.14.6mpimpichscalarreal:
         CONFIG: osx_64_hdf51.14.6mpimpichscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -25,9 +26,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf51.14.6mpimpichscalarreal
       osx_64_hdf51.14.6mpiopenmpiscalarcomplex:
         CONFIG: osx_64_hdf51.14.6mpiopenmpiscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -35,9 +37,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf51.14.6mpiopenmpiscalarcomplex
       osx_64_hdf51.14.6mpiopenmpiscalarreal:
         CONFIG: osx_64_hdf51.14.6mpiopenmpiscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -45,9 +48,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf51.14.6mpiopenmpiscalarreal
       osx_64_hdf52mpimpichscalarcomplex:
         CONFIG: osx_64_hdf52mpimpichscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -55,9 +59,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf52mpimpichscalarcomplex
       osx_64_hdf52mpimpichscalarreal:
         CONFIG: osx_64_hdf52mpimpichscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -65,9 +70,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf52mpimpichscalarreal
       osx_64_hdf52mpiopenmpiscalarcomplex:
         CONFIG: osx_64_hdf52mpiopenmpiscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -75,9 +81,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf52mpiopenmpiscalarcomplex
       osx_64_hdf52mpiopenmpiscalarreal:
         CONFIG: osx_64_hdf52mpiopenmpiscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -85,9 +92,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15
+        CONFIG_SHORT: osx_64_hdf52mpiopenmpiscalarreal
       osx_arm64_hdf51.14.6mpimpichscalarcomplex:
         CONFIG: osx_arm64_hdf51.14.6mpimpichscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -95,9 +103,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf51.14.6mpimpichscalarcomplex
       osx_arm64_hdf51.14.6mpimpichscalarreal:
         CONFIG: osx_arm64_hdf51.14.6mpimpichscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -105,9 +114,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf51.14.6mpimpichscalarreal
       osx_arm64_hdf51.14.6mpiopenmpiscalarcomplex:
         CONFIG: osx_arm64_hdf51.14.6mpiopenmpiscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -115,9 +125,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf51.14.6mpiopenmpiscalarcomplex
       osx_arm64_hdf51.14.6mpiopenmpiscalarreal:
         CONFIG: osx_arm64_hdf51.14.6mpiopenmpiscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -125,9 +136,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf51.14.6mpiopenmpiscalarreal
       osx_arm64_hdf52mpimpichscalarcomplex:
         CONFIG: osx_arm64_hdf52mpimpichscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -135,9 +147,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf52mpimpichscalarcomplex
       osx_arm64_hdf52mpimpichscalarreal:
         CONFIG: osx_arm64_hdf52mpimpichscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -145,9 +158,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf52mpimpichscalarreal
       osx_arm64_hdf52mpiopenmpiscalarcomplex:
         CONFIG: osx_arm64_hdf52mpiopenmpiscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -155,9 +169,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf52mpiopenmpiscalarcomplex
       osx_arm64_hdf52mpiopenmpiscalarreal:
         CONFIG: osx_arm64_hdf52mpiopenmpiscalarreal
         UPLOAD_PACKAGES: 'True'
@@ -165,9 +180,10 @@ jobs:
         free_disk_space: skip
         pagefile_size: 0
         resize_partitions: false
-        store_build_artifacts: false
+        store_build_artifacts: true
         tools_install_dir: ~/miniforge3
         vm_image: macOS-15-arm64
+        CONFIG_SHORT: osx_arm64_hdf52mpiopenmpiscalarreal
   timeoutInMinutes: 360
   variables: {}
 
@@ -194,3 +210,44 @@ jobs:
       BINSTAR_TOKEN: $(BINSTAR_TOKEN)
       FEEDSTOCK_TOKEN: $(FEEDSTOCK_TOKEN)
       STAGING_BINSTAR_TOKEN: $(STAGING_BINSTAR_TOKEN)
+
+  - script: |
+      export ARTIFACT_STAGING_DIR="$(Build.ArtifactStagingDirectory)"
+      # Archive everything in CONDA_BLD_PATH except environments
+      export BLD_ARTIFACT_PREFIX=conda_pkgs
+      export CI=azure
+      export CI_RUN_ID=$(build.BuildNumber).$(system.JobAttempt)
+      export CONDA_BLD_PATH=$(build_workspace_dir)
+      export FEEDSTOCK_NAME=$(basename ${BUILD_REPOSITORY_NAME})
+      export MINIFORGE_HOME=$(tools_install_dir)
+      if [[ "$AGENT_JOBSTATUS" == "Failed" ]]; then
+        # Use a distinct prefix on failure (to match GHA).
+        export BLD_ARTIFACT_PREFIX=conda_pkgs_failed
+        # Archive the CONDA_BLD_PATH environments only when the job fails
+        export ENV_ARTIFACT_PREFIX=conda_envs
+        export WRK_ARTIFACT_PREFIX=conda_work
+      fi
+      ./.scripts/create_conda_build_artifacts.sh
+    displayName: Prepare conda build artifacts
+    condition: and(succeededOrFailed(), eq(variables.store_build_artifacts, true))
+
+  - task: PublishPipelineArtifact@1
+    displayName: Store conda build artifacts
+    condition: not(eq(variables.BLD_ARTIFACT_PATH, ''))
+    inputs:
+      targetPath: $(BLD_ARTIFACT_PATH)
+      artifactName: $(BLD_ARTIFACT_NAME)
+
+  - task: PublishPipelineArtifact@1
+    displayName: Store conda work directoryartifacts
+    condition: not(eq(variables.WRK_ARTIFACT_PATH, ''))
+    inputs:
+      targetPath: $(WRK_ARTIFACT_PATH)
+      artifactName: $(WRK_ARTIFACT_NAME)
+
+  - task: PublishPipelineArtifact@1
+    displayName: Store conda build environment artifacts
+    condition: not(eq(variables.ENV_ARTIFACT_PATH, ''))
+    inputs:
+      targetPath: $(ENV_ARTIFACT_PATH)
+      artifactName: $(ENV_ARTIFACT_NAME)
